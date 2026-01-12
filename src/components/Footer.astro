@@ -1,0 +1,62 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-black text-white pt-20 pb-10 border-t border-slate-900">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+      
+      <!-- Brand -->
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center gap-2 mb-6">
+            <div class="w-8 h-8 rounded-lg bg-[rgb(var(--color-primary))]"></div>
+            <span class="text-2xl font-bold font-heading">Modern Ajans</span>
+        </div>
+        <p class="text-slate-400 max-w-md leading-relaxed">
+          Yaratıcı çözümler ve modern teknolojilerle markanızı dijital dünyada geleceğe taşıyoruz. Kalite ve güven önceliğimizdir.
+        </p>
+      </div>
+      
+      <!-- Links -->
+      <div>
+        <h4 class="text-lg font-bold mb-6 text-white">Menü</h4>
+        <ul class="space-y-4">
+          <li><a href="#hero" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">Ana Sayfa</a></li>
+          <li><a href="#about" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">Hakkımızda</a></li>
+          <li><a href="#services" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">Hizmetler</a></li>
+          <li><a href="#contact" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">İletişim</a></li>
+        </ul>
+      </div>
+      
+      <!-- Legal -->
+      <div>
+        <h4 class="text-lg font-bold mb-6 text-white">Kurumsal</h4>
+        <ul class="space-y-4">
+          <li><a href="#" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">Gizlilik Politikası</a></li>
+          <li><a href="#" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">Kullanım Şartları</a></li>
+          <li><a href="#" class="text-slate-400 hover:text-[rgb(var(--color-primary))] transition-colors">KVKK</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Bottom -->
+    <div class="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p class="text-slate-600 text-sm">
+        &copy; {currentYear} Tüm hakları saklıdır.
+      </p>
+      
+      <div class="flex gap-4">
+        <!-- Social Placeholders -->
+        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:bg-[rgb(var(--color-primary))] hover:text-white transition-all cursor-pointer">
+            <span class="text-xs">IG</span>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:bg-[rgb(var(--color-primary))] hover:text-white transition-all cursor-pointer">
+            <span class="text-xs">LI</span>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-slate-900 flex items-center justify-center text-slate-500 hover:bg-[rgb(var(--color-primary))] hover:text-white transition-all cursor-pointer">
+            <span class="text-xs">X</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
